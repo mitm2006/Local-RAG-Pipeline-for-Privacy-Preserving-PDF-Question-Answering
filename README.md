@@ -40,8 +40,8 @@ The pipeline is tested using an **AWS Guide Book (PDF)** as a sample knowledge s
 
 | Component | Model |
 |---------|-------|
-| Embeddings | `all-mpnet-base-v2` | https://huggingface.co/sentence-transformers/all-mpnet-base-v2
-| LLM | `Qwen3 Causal Reasoning (0.7B parameters)` | https://huggingface.co/Qwen/Qwen3-0.6B
+| Embeddings | `all-mpnet-base-v2` | https://huggingface.co/sentence-transformers/all-mpnet-base-v2 |
+| LLM | `Qwen3 Causal Reasoning (0.7B parameters)` | https://huggingface.co/Qwen/Qwen3-0.6B |
 
 Both models are executed **locally** to ensure privacy and offline capability.
 
