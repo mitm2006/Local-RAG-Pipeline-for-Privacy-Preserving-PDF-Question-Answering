@@ -39,9 +39,13 @@ The pipeline is tested using an **AWS Guide Book (PDF)** as a sample knowledge s
 ## Models Used
 
 | Component | Model |
-|---------|-------|-------|
-| Embeddings | `all-mpnet-base-v2` | https://huggingface.co/sentence-transformers/all-mpnet-base-v2 |
-| LLM | `Qwen3 Causal Reasoning (0.7B parameters)` | https://huggingface.co/Qwen/Qwen3-0.6B |
+|---------|-------|
+| Embeddings | `all-mpnet-base-v2` | 
+| LLM | `Qwen3 Causal Reasoning (0.7B parameters)` | 
+
+Embeddings Model: https://huggingface.co/sentence-transformers/all-mpnet-base-v2
+
+LLM Model: https://huggingface.co/Qwen/Qwen3-0.6B
 
 Both models are executed **locally** to ensure privacy and offline capability.
 
@@ -71,8 +75,8 @@ Both models are executed **locally** to ensure privacy and offline capability.
 
 ### Future Improvements
 
--Add FAISS or ChromaDB for scalable retrieval
--Support multiple PDFs
--Add a Streamlit
--Experiment with reranking models
--Evaluation metrics for retrieval quality
+- Add FAISS or ChromaDB for scalable retrieval
+- Support multiple PDFs
+- Add a Streamlit
+- Experiment with reranking models
+- Evaluation metrics for retrieval quality
