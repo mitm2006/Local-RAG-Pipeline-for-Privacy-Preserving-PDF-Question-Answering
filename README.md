@@ -39,7 +39,7 @@ The pipeline is tested using an **AWS Guide Book (PDF)** as a sample knowledge s
 ## Models Used
 
 | Component | Model |
-|---------|-------|
+|---------|-------|-------|
 | Embeddings | `all-mpnet-base-v2` | https://huggingface.co/sentence-transformers/all-mpnet-base-v2 |
 | LLM | `Qwen3 Causal Reasoning (0.7B parameters)` | https://huggingface.co/Qwen/Qwen3-0.6B |
 
@@ -59,4 +59,20 @@ Both models are executed **locally** to ensure privacy and offline capability.
 ├── embeddings/
 │   └── vector_store.pkl         # Stored embeddings
 └── README.md
+```
 
+### Requirements
+
+- Python 3.9+
+- PyTorch
+- Hugging Face Transformers
+- Sentence Transformers
+- PDF parsing libraries (e.g., PyPDF2 or pdfplumber)
+
+### Future Improvements
+
+-Add FAISS or ChromaDB for scalable retrieval
+-Support multiple PDFs
+-Add a Streamlit
+-Experiment with reranking models
+-Evaluation metrics for retrieval quality
